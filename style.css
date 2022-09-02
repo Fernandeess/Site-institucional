@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 60px;
+    border-bottom: #32b9cd solid 3px;
+}
+.containerHeader{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #32b9cd;
+}
+
+.topNav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.topNav li{
+    margin: 10px;
+}
+.topNav ul, li, a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    color: #32b9cd;
+    font-weight:bold;
+}
